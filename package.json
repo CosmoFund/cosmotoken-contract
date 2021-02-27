@@ -1,5 +1,5 @@
 {
-  "name": "@cosmofund/cosmotoken-contract",
+  "name": "@cosmofund/cosmotoken",
   "version": "0.1.0",
   "description": "CosmoToken Contract",
   "license": "MIT",
@@ -13,13 +13,13 @@
     "precompile": "yarn clean",
     "compile": "truffle compile"
   },
-  "homepage": "https://github.com/CosmoFund/cosmotoken-contract#readme",
+  "homepage": "https://github.com/CosmoFund/cosmotoken-contracts#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CosmoFund/cosmotoken-contract.git"
+    "url": "https://github.com/CosmoFund/cosmotoken-contracts.git"
   },
   "bugs": {
-    "url": "https://github.com/CosmoFund/cosmotoken-contract/issues",
+    "url": "https://github.com/CosmoFund/cosmotoken-contracts/issues",
     "email": "support@CosmoFund.space"
   },
   "files": [
@@ -33,7 +33,9 @@
   "keywords": [
     "Ethereum",
     "NFT",
+    "ERC20",
     "Cosmo",
+    "CosmoFund",
     "CosmoToken",
     "сontract",
     "ABI"

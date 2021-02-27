@@ -8,16 +8,16 @@ CosmoFund WEB Site: [www.CosmoFund.space](https://www.CosmoFund.space/).
 ## Usage CosmoToken Smart Contract
 ### Install
 ```bash
-yarn add @cosmofund/cosmotoken-contract
+yarn add @cosmofund/cosmotoken
 # or
-npm install @cosmofund/cosmotoken-contract
+npm install @cosmofund/cosmotoken
 ```
 
 ### Usage
 ```js
-const CosmoToken = require('@cosmofund/cosmotoken-contract/abi/CosmoToken.json');
+const CosmoToken = require('@cosmofund/cosmotoken/abi/CosmoToken.json');
 // or
-import CosmoToken from '@cosmofund/cosmotoken-contract/abi/CosmoToken.json';
+import CosmoToken from '@cosmofund/cosmotoken/abi/CosmoToken.json';
 ```
 
 
