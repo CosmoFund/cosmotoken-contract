@@ -15,9 +15,9 @@ npm install @cosmofund/cosmotoken
 
 ### Usage
 ```js
-const CosmoToken = require('@cosmofund/cosmotoken/abi/CosmoToken.json');
+const CosmoToken = require('@cosmofund/cosmotoken/build/CosmoToken.json');
 // or
-import CosmoToken from '@cosmofund/cosmotoken/abi/CosmoToken.json';
+import CosmoToken from '@cosmofund/cosmotoken/build/CosmoToken.json';
 ```
 
 

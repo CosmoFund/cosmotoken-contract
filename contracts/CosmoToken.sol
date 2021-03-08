@@ -11,14 +11,14 @@ import "./CosmoTokenERC20.sol";
  *  - ability for holders to burn (destroy) their tokens
  *  - a minter role that allows for token minting (creation)
  *  - a minting to
- *  - a minting to fond
+ *  - a minting to fund
  *  - project URL
  */
 contract CosmoToken is CosmoTokenERC20, AccessControl {
     using SafeMath for uint256;
 
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
-    address private _fond;
+    address private _fund;
 
 
     constructor() public CosmoTokenERC20("Cosmo Token", "COSMO") {
@@ -26,8 +26,8 @@ contract CosmoToken is CosmoTokenERC20, AccessControl {
         _setURL("https://CosmoFund.space/");
     }
 
-    function fond() public view returns (address) {
-        return _fond;
+    function fund() public view returns (address) {
+        return _fund;
     }
 
     function mint(address to, uint256 amount) public onlyMinter returns (bool) {
@@ -35,14 +35,14 @@ contract CosmoToken is CosmoTokenERC20, AccessControl {
         return true;
     }
 
-    function mintToFond(uint256 amount) public onlyMinter returns (bool) {
-        _mint(_fond, amount);
+    function mintToFund(uint256 amount) public onlyMinter returns (bool) {
+        _mint(_fund, amount);
         return true;
     }
 
-    function setFond(address account) public onlyAdmin {
-        require(account != address(0), "CosmoToken: new fond is the zero address");
-        _fond = account;
+    function setFund(address account) public onlyAdmin {
+        require(account != address(0), "CosmoToken: new fund is the zero address");
+        _fund = account;
     }
 
     function addMinter(address account) public onlyAdmin {
