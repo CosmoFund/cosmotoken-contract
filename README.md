@@ -2,7 +2,7 @@
 CosmoFund WEB Site: [www.CosmoFund.space](https://www.CosmoFund.space/).
 
 ## Verified Smart Contracts:
-- [CosmoToken](https://etherscan.io/token/0xf11c2b7d28efc6e04880d66a295d72b54fc3172d).
+- [CosmoToken](https://etherscan.io/token/0x27cd7375478F189bdcF55616b088BE03d9c4339c).
 
 
 ## Usage CosmoToken Smart Contract
