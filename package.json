@@ -1,6 +1,6 @@
 {
   "name": "@cosmofund/cosmotoken",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CosmoToken Contract",
   "license": "MIT",
   "author": {
@@ -24,7 +24,7 @@
   },
   "files": [
     "contracts",
-    "abi"
+    "build"
   ],
   "devDependencies": {
     "rimraf": "^3.0.2",
